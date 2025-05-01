@@ -1,4 +1,4 @@
-# pokemon card collection tracker (updated week 14 homework)
+# character collection tracker (updated week 14 homework)
 
 a simple web application to track and manage your collection.
 
