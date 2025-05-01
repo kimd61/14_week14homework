@@ -1,6 +1,6 @@
-# pokemon card collection tracker (updated week 12 homework)
+# pokemon card collection tracker (updated week 14 homework)
 
-a simple web application to track and manage your pokemon card collection.
+a simple web application to track and manage your collection.
 
 ## features
 
