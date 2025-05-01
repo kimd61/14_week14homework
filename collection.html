@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pokémon Collection</title>
+    <link rel="stylesheet" href="collection.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Pokémon Collection</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="collection.html">My Collection</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Collection Section -->
+        <div class="collection">
+            <div class="filter-options">
+                <input type="text" id="collection-search" placeholder="Filter by name...">
+                <select id="filter-type">
+                    <option value="">All Types</option>
+                    <option value="normal">Normal</option>
+                    <option value="fire">Fire</option>
+                    <option value="water">Water</option>
+                    <option value="grass">Grass</option>
+                    <option value="electric">Electric</option>
+                    <option value="ice">Ice</option>
+                    <option value="fighting">Fighting</option>
+                    <option value="poison">Poison</option>
+                    <option value="ground">Ground</option>
+                    <option value="flying">Flying</option>
+                    <option value="psychic">Psychic</option>
+                    <option value="bug">Bug</option>
+                    <option value="rock">Rock</option>
+                    <option value="ghost">Ghost</option>
+                    <option value="dragon">Dragon</option>
+                    <option value="dark">Dark</option>
+                    <option value="steel">Steel</option>
+                    <option value="fairy">Fairy</option>
+                </select>
+                <button id="clear-filters" class="btn-secondary">Clear Filters</button>
+            </div>
+            
+            <div class="advanced-filters">
+                <button id="toggle-advanced-filters" class="btn-toggle">Advanced Filters ▼</button>
+                <div class="advanced-filters-content" style="display: none;">
+                    <div class="filter-group">
+                        <h3>Sort By</h3>
+                        <select id="sort-by">
+                            <option value="name-asc">Name (A-Z)</option>
+                            <option value="name-desc">Name (Z-A)</option>
+                            <option value="id-asc">ID (Low-High)</option>
+                            <option value="id-desc">ID (High-Low)</option>
+                            <option value="date-added-desc">Date Added (Newest)</option>
+                            <option value="date-added-asc">Date Added (Oldest)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-container" id="collection-list">
+                <!-- Cards will be dynamically added here -->
+                <p id="empty-collection" class="no-results">Your collection is empty. Add Pokémon from the home page.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pokemon Details Modal -->
+    <div id="pokemon-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-details"></div>
+        </div>
+    </div>
+
+    <script src="collection.js"></script>
+</body>
+</html>
