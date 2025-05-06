@@ -4,7 +4,7 @@ a simple web application to track and manage your collection.
 
 ## features
 
-### new filtering capabilities (as shown from lecture in week 12)
+### new filtering capabilities
 - filter by card condition (mint, near mint, excellent, good, poor)
 - date range filtering (from/to) based on purchase date
 - advanced filters section (collapsible)
