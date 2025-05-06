@@ -4,6 +4,7 @@ a simple web application to track and manage your collection.
 
 ## in class prompts:
 - this application looks really ugly, make it look professional yet fun, keep colors neutral
+- a LOT of debugging, fixing them one at a time
 
 ## features
 
