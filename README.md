@@ -2,6 +2,9 @@
 
 a simple web application to track and manage your collection.
 
+## in class prompts:
+- this application looks really ugly, make it look professional yet fun, keep colors neutral
+
 ## features
 
 ### new filtering capabilities
